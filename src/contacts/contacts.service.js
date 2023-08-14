@@ -40,7 +40,7 @@ async function create(body) {
 
   const mailOptions = {
     from: "smartdesign12@outlook.com",
-    to: "nicholasnjeru917@gmail.com",
+    to: "nyakundigeoffrey16@gmail.com",
     subject: "Smart Designs",
     html: emailContent,
   };
