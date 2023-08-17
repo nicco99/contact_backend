@@ -21,20 +21,21 @@ async function create(body) {
 
   const emailContent = `
   <div style=" padding-left: 20px; border-radius: 10px;">
-    <h1 style="font-size: 24px; color: #668550; margin-bottom: 16px;">New contact ..</h1>
     <p style="display: flex; flex-direction: column; gap: 10px;">
-
-      <span style="font-size: 16px; color: #3e5f2e;">${contact.name}</span>
+      <span style="font-size: 16px;">${contact.Username}</span>
     </p>
     <p style="display: flex; flex-direction: column; gap: 10px;">
-      <span style="font-size: 16px; color: #3e5f2e;">${contact.email}</span>
+      <span style="font-size: 16px; ">${contact.Email}</span>
     </p>
     <p style="display: flex; flex-direction: column; gap: 10px;">
-      <span style="font-size: 16px; color: #3e5f2e;">${contact.subject}</span>
+      <span style="font-size: 16px; ">${contact.PhoneNumber}</span>
     </p>
     <p style="display: flex; flex-direction: column;">
-      <span style="font-size: 16px; color: #3e5f2e;">${contact.message}</span>
+      <span style="font-size: 16px; ">${contact.EnquiryType}</span>
     </p>
+    <p style="display: flex; flex-direction: column;">
+    <span style="font-size: 16px; ">${contact.Message}</span>
+  </p>
   </div>
 `;
 
