@@ -10,8 +10,8 @@ async function create(body) {
   const transporter = nodemailer.createTransport({
     service: "hotmail",
     auth: {
-      user: "goldenarenaltd@outlook.com", // user
-      pass: "Belac@123", //  password
+      user: "info@goldenarenastudy.com", // user
+      pass: "Geoffrey2030", //  password
     },
     tls: {
       // do not fail on invalid certs
@@ -40,7 +40,7 @@ async function create(body) {
 `;
 
   const mailOptions = {
-    from: "goldenarenaltd@outlook.com",
+    from: "info@goldenarenastudy.com",
     to: "study@goldenaren.com",
     subject: "Smart Designs",
     html: emailContent,
